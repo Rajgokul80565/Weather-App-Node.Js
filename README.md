@@ -16,7 +16,7 @@ by using open weather API.
 ![ Weather app screenshot !](/public/image/weatherapp-3.png)
 
 ## Mobile - 
-![ Weather app screenshot !](/public/image/weatherapp-mob.png)
+![ Weather app screenshot !](/public/image/weather-mob.png)
 ![ Weather app screenshot !](/public/image/weatherapp-mob2.png)
 ![ Weather app screenshot !](/public/image/weatherapp-mob3.png)
 
