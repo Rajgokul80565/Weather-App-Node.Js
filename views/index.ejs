@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/index.css">
+    <title>Weatherify</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">
+            <h1>Weatherify</h1>
+        </div>
+        
+       
+            <ul>
+                <a class="nav-link" href="/"><li> Home </li></a>
+                <a class="nav-link" href="/about"><li> About </li></a>
+            </ul>
+        
+        
+    </nav>
+
+    <div id="main">
+        <div id="search-page">
+            <div>
+                <h1>Get the weather report</h1>
+                <h2>of Any City</h2>
+            </div>
+            <div class="search-main">
+                <form action="/" method="post" >
+                <input class="search" name="location" type="text" placeholder="Enter your city name..">
+                <button type="submit" name="submit" id="search-btn"><img id="arrow" src="/image/right-arrow.svg" alt=""></button>
+            </form>
+            </div>
+        </div>
+    
+        <div id="weather-page">
+            <div id="weather-content">
+                <div id="weather-img-div">
+                    <img id="weather-image" src= "<%= icon %>" alt="cloud-image">
+                </div>
+                <div class="report-main" >
+                    <h2 id="city-name"><%= cityName %></h2>
+                    <div class="weather-report">
+                        <div class="report-title">
+                            <p>Temperature</p>
+                            <p>Condition</p>
+                            <p> Country </p>
+                            <p>Humidity</p>
+                           
+                        </div>
+                        <div class="report-result">
+                            <p><%= temperature %>°c</p>
+                            <p><%= description %></p>
+                            <p><%= country %></p>
+                            <p><%= humidity %></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+  
+
+    
+</body>
+</html>
